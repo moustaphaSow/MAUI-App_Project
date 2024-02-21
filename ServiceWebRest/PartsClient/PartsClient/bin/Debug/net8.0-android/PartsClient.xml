@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PartsClient</name>
+    </assembly>
+    <members>
+        <member name="T:PartsClient.ViewModels.AddPartViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:PartsClient.ViewModels.AddPartViewModel.PartID">
+            <inheritdoc cref="F:PartsClient.ViewModels.AddPartViewModel._partID"/>
+        </member>
+        <member name="P:PartsClient.ViewModels.AddPartViewModel.PartName">
+            <inheritdoc cref="F:PartsClient.ViewModels.AddPartViewModel._partName"/>
+        </member>
+        <member name="P:PartsClient.ViewModels.AddPartViewModel.Suppliers">
+            <inheritdoc cref="F:PartsClient.ViewModels.AddPartViewModel._suppliers"/>
+        </member>
+        <member name="P:PartsClient.ViewModels.AddPartViewModel.PartType">
+            <inheritdoc cref="F:PartsClient.ViewModels.AddPartViewModel._partType"/>
+        </member>
+        <member name="F:PartsClient.ViewModels.AddPartViewModel.saveDataCommand">
+            <summary>The backing field for <see cref="P:PartsClient.ViewModels.AddPartViewModel.SaveDataCommand"/>.</summary>
+        </member>
+        <member name="P:PartsClient.ViewModels.AddPartViewModel.SaveDataCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PartsClient.ViewModels.AddPartViewModel.SaveData"/>.</summary>
+        </member>
+        <member name="F:PartsClient.ViewModels.AddPartViewModel.insertPartCommand">
+            <summary>The backing field for <see cref="P:PartsClient.ViewModels.AddPartViewModel.InsertPartCommand"/>.</summary>
+        </member>
+        <member name="P:PartsClient.ViewModels.AddPartViewModel.InsertPartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PartsClient.ViewModels.AddPartViewModel.InsertPart"/>.</summary>
+        </member>
+        <member name="F:PartsClient.ViewModels.AddPartViewModel.updatePartCommand">
+            <summary>The backing field for <see cref="P:PartsClient.ViewModels.AddPartViewModel.UpdatePartCommand"/>.</summary>
+        </member>
+        <member name="P:PartsClient.ViewModels.AddPartViewModel.UpdatePartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PartsClient.ViewModels.AddPartViewModel.UpdatePart"/>.</summary>
+        </member>
+        <member name="F:PartsClient.ViewModels.AddPartViewModel.deletePartCommand">
+            <summary>The backing field for <see cref="P:PartsClient.ViewModels.AddPartViewModel.DeletePartCommand"/>.</summary>
+        </member>
+        <member name="P:PartsClient.ViewModels.AddPartViewModel.DeletePartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PartsClient.ViewModels.AddPartViewModel.DeletePart"/>.</summary>
+        </member>
+        <member name="F:PartsClient.ViewModels.AddPartViewModel.doneEditingCommand">
+            <summary>The backing field for <see cref="P:PartsClient.ViewModels.AddPartViewModel.DoneEditingCommand"/>.</summary>
+        </member>
+        <member name="P:PartsClient.ViewModels.AddPartViewModel.DoneEditingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PartsClient.ViewModels.AddPartViewModel.DoneEditing"/>.</summary>
+        </member>
+        <member name="T:PartsClient.ViewModels.PartsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:PartsClient.ViewModels.PartsViewModel.Parts">
+            <inheritdoc cref="F:PartsClient.ViewModels.PartsViewModel._parts"/>
+        </member>
+        <member name="P:PartsClient.ViewModels.PartsViewModel.IsRefreshing">
+            <inheritdoc cref="F:PartsClient.ViewModels.PartsViewModel._isRefreshing"/>
+        </member>
+        <member name="P:PartsClient.ViewModels.PartsViewModel.IsBusy">
+            <inheritdoc cref="F:PartsClient.ViewModels.PartsViewModel._isBusy"/>
+        </member>
+        <member name="P:PartsClient.ViewModels.PartsViewModel.SelectedPart">
+            <inheritdoc cref="F:PartsClient.ViewModels.PartsViewModel._selectedPart"/>
+        </member>
+        <member name="F:PartsClient.ViewModels.PartsViewModel.partSelectedCommand">
+            <summary>The backing field for <see cref="P:PartsClient.ViewModels.PartsViewModel.PartSelectedCommand"/>.</summary>
+        </member>
+        <member name="P:PartsClient.ViewModels.PartsViewModel.PartSelectedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PartsClient.ViewModels.PartsViewModel.PartSelected"/>.</summary>
+        </member>
+        <member name="F:PartsClient.ViewModels.PartsViewModel.loadDataCommand">
+            <summary>The backing field for <see cref="P:PartsClient.ViewModels.PartsViewModel.LoadDataCommand"/>.</summary>
+        </member>
+        <member name="P:PartsClient.ViewModels.PartsViewModel.LoadDataCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PartsClient.ViewModels.PartsViewModel.LoadData"/>.</summary>
+        </member>
+        <member name="F:PartsClient.ViewModels.PartsViewModel.addNewPartCommand">
+            <summary>The backing field for <see cref="P:PartsClient.ViewModels.PartsViewModel.AddNewPartCommand"/>.</summary>
+        </member>
+        <member name="P:PartsClient.ViewModels.PartsViewModel.AddNewPartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PartsClient.ViewModels.PartsViewModel.AddNewPart"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PartID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PartID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PartName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PartName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Suppliers">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Suppliers" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PartType">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PartType" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Parts">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Parts" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsRefreshing">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsRefreshing" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedPart">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedPart" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PartID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PartID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PartName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PartName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Suppliers">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Suppliers" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PartType">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PartType" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Parts">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Parts" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsRefreshing">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsRefreshing" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedPart">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedPart" generated properties.</summary>
+        </member>
+    </members>
+</doc>
